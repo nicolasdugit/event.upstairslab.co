@@ -1,0 +1,20 @@
+- title: When
+  subtitle: When ?
+  text: On Wenesday, 20th of June <br> Meet you at 6.00pm
+  logo: fa-calendar
+
+- title: Where
+  subtitle: Where ?
+  text: Our lab is located in Ban Vatnak, next to Sunlabob office
+  logo: fa-map
+
+- title: What
+  subtitle: What ?
+  text: A meetup with talks about tech
+  logo: fa-comments
+
+- title: Who
+  subtitle: Who ?
+  text: For the first meeting we invited some of our friends, including you
+  logo: fa-child
+

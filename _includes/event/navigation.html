@@ -8,13 +8,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
-          {% for page in site.pages %}
-          {% if page.title != 'Home'  %}
+          
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ page.url }}">{{ page.title }}</a>
+              <a class="nav-link js-scroll-trigger" href="../index.html">Home</a>
             </li>
-            {% endif %}
-          {% endfor %}
+            
           </ul>
         </div>
       </div>

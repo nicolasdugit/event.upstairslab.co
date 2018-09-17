@@ -2,18 +2,20 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Vientiane Tech Talks</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
           <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
+            <a class="nav-item" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Archive
+            </a>
+          <div class="collapse" id="collapseExample">
           {% for page in site.pages %}
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ page.url }}">{{ page.title }}</a>
+          {% if page.categorie== "event" %}
+            <li  class=" nav-item" >
+              <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
             </li>
+           {% endif %}
           {% endfor %}
-          </ul>
         </div>
       </div>
     </nav>
+
