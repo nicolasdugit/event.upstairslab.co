@@ -1,12 +1,12 @@
 - title: When
   subtitle: When ?
-  text: On Wenesday, 20th of June<br>Meet you at 6.00pm
+  text: On Thursday, 11th of October<br>Meet you at 6.00pm
   logo: fa-calendar
   number: 1
 
 - title: Where
   subtitle: Where ?
-  text: Our lab is located in Ban Vatnak, next to Sunlabob office
+  text: This second event will take place at Lao IT dev office, Ban Vatnak
   logo: fa-map
   number: 1
 
@@ -18,6 +18,6 @@
 
 - title: Who
   subtitle: Who ?
-  text: For the first meeting we invited some of our friends, including you
+  text: Everybody interested is welcome !
   logo: fa-child
   number: 1
