@@ -8,10 +8,7 @@
           </div>
         </div>
         <div class="row text-center">
-          
-        {% assign informations = site.data[page.information]  %}
-
-          {% for info in informations %}
+          {% for info in site.data[page.information] %}
           <div class="col-md-3">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
