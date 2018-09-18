@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	{% include event/head.html %}
-</head>
-<body>
+---
+layout: wrapper
+---
+
 	{% include event/header.html %}
+	{% include home/navigation.html %}
+
+{{ content }}
+
 	{% include home/js.html %}
-</body>
-</html>
