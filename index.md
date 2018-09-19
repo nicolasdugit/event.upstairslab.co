@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Vientiane Tech Talks
+author: UpstairsLab
 ---
 <!-- Header -->
 <header class="masthead" id="page-top">
@@ -149,7 +150,7 @@ title: Vientiane Tech Talks
 			<div class="col">
 				<a style="text-align: center;" href="{{ sponsor.website }}">
 		{% if sponsor.logo %}
-					<img class="img-fluid d-block mx-auto" src="assets/img/logos/{{ sponsor.logo }}" alt="{{ sponsor.alt }}">
+					<img class="img-fluid d-block mx-auto" src="assets/img/logos/{{ sponsor.logo }}" style="width: 200px" alt="{{ sponsor.alt }}">
 		{% else sponsor.logo %}
 					<h2 style="font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive">{{ sponsor.name }}</h2>
 		{% endif %}
