@@ -7,7 +7,7 @@ author: UpstairsLab
 <header class="masthead" id="page-top">
 	<div class="container">
 		<div class="intro-text">
-			<div style="color: #fed136;" class="intro-lead-in">Vientiane Tech Talks</div>
+			<h1 style="color: #fed136;" class="intro-lead-in">Vientiane Tech Talks</h1>
 			<div style="color: #fed136;" class="intro-heading text-uppercase">Second Meet Up</div>
 			<div style="color: #fed136;" class="intro-lead-in">by UpstairsLab</div>
 			<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>

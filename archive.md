@@ -1,5 +1,6 @@
 ---
 layout: archive
+title: Vientiane Tech Talks Archives
 permalink: 
 ---
 
@@ -7,7 +8,7 @@ permalink:
 <header class="archivehead" id="page-top">
 	<div class="container">
 		<div class="intro-text">
-			<div style="color: ;" class="intro-lead-in">Vientiane Tech Talks</div>
+			<h1 style="color: ;" class="intro-lead-in">Vientiane Tech Talks</h1>
 			<div style="color: ;" class="intro-heading text-uppercase">Previous Events</div>
 			<div style="color: ;" class="intro-lead-in">by UpstairsLab</div>
 		</div>
