@@ -1,0 +1,27 @@
+- title: first event
+  name: UpstairsLab
+  website: http://www.upstairslab.co
+  logo: 
+  alt: UpstairsLab
+  number: 1
+
+- title: first event
+  name: Enkidu
+  website: http://www.enkidu.co
+  logo: enkidu.png
+  alt: Enkidu
+  number: 2
+
+- title: second event
+  name: UpstairsLab
+  website: http://www.upstairslab.co
+  logo: 
+  alt: UpstairsLab
+  number: 1
+
+- title: second event
+  name: LaoITDev
+  website: http://www.laoitdev.com
+  logo: laoitdev.png
+  alt: LaoITDev
+  number: 2

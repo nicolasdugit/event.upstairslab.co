@@ -1,4 +1,4 @@
-- title: Name
+- title: first event
   name: Nicolas Duquesne
   subtitle: Web developer
   img: nicolas.jpg
@@ -9,7 +9,7 @@
   facebook: https://web.facebook.com/nicolas.duquesne.50
   number: 1
 
-- title: Name
+- title: first event
   name: Ping Houangsanasay
   subtitle: IT specialist
   img: ping_houangsanasay.jpg
@@ -20,7 +20,7 @@
   facebook: https://web.facebook.com/PingOfficial
   number: 2
 
-- title: Name
+- title: first event
   name: Nathan Bowen
   subtitle: Enkidu founder
   img: nathan_bowen.jpg
@@ -31,7 +31,7 @@
   facebook: https://web.facebook.com/MrNathanBowen
   number: 3
 
-- title: Name
+- title: first event
   name: Sylvain Dorey
   subtitle: Software developer
   img: sylvain_dorey.jpg
@@ -41,3 +41,7 @@
   website: http://www.geoquants.com
   facebook: https://web.facebook.com/sylvain.dorey
   number: 4
+
+
+
+
