@@ -33,7 +33,7 @@ title: Vientiane Tech Talks
 					<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="/archive.html">Archive</a>
+					<a class="nav-link js-scroll-trigger" href="archive.html">Archive</a>
 				</li>
 			</ul>
 		</div>
@@ -103,7 +103,7 @@ title: Vientiane Tech Talks
 							<i class="fa fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="../assets/img/speakers/{{ speaker.img }}" alt="../assets/img/speakers/{{ speaker.alt }}">
+					<img class="img-fluid" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
 				</a>
 				<div class="portfolio-caption">
 					<h4> {{ speaker.name }} </h4>
@@ -149,7 +149,7 @@ title: Vientiane Tech Talks
 			<div class="col">
 				<a style="text-align: center;" href="{{ sponsor.website }}">
 		{% if sponsor.logo %}
-					<img class="img-fluid d-block mx-auto" src="../assets/img/logos/{{ sponsor.logo }}" alt="{{ sponsor.alt }}">
+					<img class="img-fluid d-block mx-auto" src="assets/img/logos/{{ sponsor.logo }}" alt="{{ sponsor.alt }}">
 		{% else sponsor.logo %}
 					<h2 style="font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive">{{ sponsor.name }}</h2>
 		{% endif %}
@@ -223,7 +223,7 @@ title: Vientiane Tech Talks
 						<!-- Project Details Go Here -->
 							<h3 class="text-uppercase">{{ speaker.topic }}</h3>
 							<p class="item-intro text-muted">{{ speaker.name }}</p>
-							<!-- <img class="img-fluid d-block mx-auto" style="max-height: 300px;" src="../assets/img/speakers/{{ speaker.img }}" alt="../assets/img/speakers/{{ speaker.alt }}"> -->
+							<!-- <img class="img-fluid d-block mx-auto" style="max-height: 300px;" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}"> -->
 							<p>{{ speaker.description }}</p>
 							<div class="col-md-12">CONTACT</div>
 							<div class="col-md-6 offset-md-3">

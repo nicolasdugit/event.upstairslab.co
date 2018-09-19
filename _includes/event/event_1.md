@@ -25,7 +25,7 @@
 							<i class="fa fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="../assets/img/speakers/{{ speaker.img }}" alt="../assets/img/speakers/{{ speaker.alt }}">
+					<img class="img-fluid" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
 				</a>
 				<div class="portfolio-caption">
 					<h4> {{ speaker.title }} </h4>
@@ -50,7 +50,7 @@
 			<div class="col">
 				<a style="text-align: center;" href="{{ sponsor.website }}">
 		{% if sponsor.logo %}
-					<img class="img-fluid d-block mx-auto" src="../assets/img/logos/{{ sponsor.logo }}" alt="{{ sponsor.alt }}">
+					<img class="img-fluid d-block mx-auto" src="assets/img/logos/{{ sponsor.logo }}" alt="{{ sponsor.alt }}">
 		{% else sponsor.logo %}
 					<h2 style="font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive">{{ sponsor.name }}</h2>
 		{% endif %}

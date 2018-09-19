@@ -1,5 +1,6 @@
 ---
 layout: archive
+permalink: 
 ---
 
 <!-- Header -->
@@ -23,7 +24,7 @@ layout: archive
 					<a class="nav-link js-scroll-trigger" href="#first">First Event</a>
 				</li>
 				<li class="nav-item nav-archive">
-					<a class="nav-link js-scroll-trigger" href="/index.html">Home</a>
+					<a class="nav-link js-scroll-trigger" href="index.html">Home</a>
 				</li>
 			</ul>
 		</div>
@@ -48,7 +49,7 @@ layout: archive
 						<!-- Project Details Go Here -->
 							<h3 class="text-uppercase">{{ speaker.topic }}</h3>
 							<p class="item-intro text-muted">{{ speaker.name }}</p>
-							<!-- <img class="img-fluid d-block mx-auto" style="max-height: 300px;" src="../assets/img/speakers/{{ speaker.img }}" alt="../assets/img/speakers/{{ speaker.alt }}"> -->
+							<!-- <img class="img-fluid d-block mx-auto" style="max-height: 300px;" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}"> -->
 							<p>{{ speaker.description }}</p>
 							<div class="col-md-12">CONTACT</div>
 							<div class="col-md-6 offset-md-3">
