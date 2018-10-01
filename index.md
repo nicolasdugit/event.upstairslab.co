@@ -34,7 +34,7 @@ author: UpstairsLab
 					<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="archive.html">Past Event</a>
+					<a class="nav-link js-scroll-trigger" href="archive.html">Past Events</a>
 				</li>
 			</ul>
 		</div>
@@ -109,12 +109,14 @@ author: UpstairsLab
 				<div class="portfolio-caption">
 					<h4> {{ speaker.name }} </h4>
 					<p class="text-muted">{{ speaker.subtitle }}</p>
+					<hr>
+					<h6> {{ speaker.topic }} </h6>
 				</div>
 			</div>
 	{% endif %}
 {% endfor %}
 			<div class="col-lg-12 text-center">
-				<h2 style="color: #fed136" class="section-heading text-uppercase">Coming Soon</h2>
+				<h2 style="color: #fed136" class="section-heading text-uppercase">More Coming Soon</h2>
 			</div>
 		</div>
 	</div>

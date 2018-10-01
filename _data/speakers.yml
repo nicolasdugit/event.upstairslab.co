@@ -10,7 +10,7 @@
   number: 1
 
 - title: first event
-  name: Ping <br> Houangsanasay
+  name: Ping Houangsanasay
   subtitle: IT specialist
   img: ping_houangsanasay.jpg
   alt: Ping Houangsanasay
@@ -21,7 +21,7 @@
   number: 2
 
 - title: first event
-  name: Nathan <br> Bowen
+  name: Nathan Bowen
   subtitle: Enkidu founder
   img: nathan_bowen.jpg
   alt: Nathan Bowen
@@ -32,7 +32,7 @@
   number: 3
 
 - title: first event
-  name: Sylvain <br> Dorey
+  name: Sylvain Dorey
   subtitle: Software developer
   img: sylvain_dorey.jpg
   alt: Sylvain Dorey
@@ -41,6 +41,41 @@
   website: http://www.geoquants.com
   facebook: https://web.facebook.com/sylvain.dorey
   number: 4
+
+- title: second event
+  name: Jaap Krösschell
+  subtitle: Software developer
+  img: jaap.jpg
+  alt: Jaap Krösschell
+  topic: "Introduction to the Arduino platform: build your own smart objects"
+  description: Arduino is a free and open-source platform allowing anybody to create electronics smart objects, from weather stations to robots. Follow the guide Jaap to discover its full potential!
+  website: 
+  facebook: 
+  number: 5
+
+- title: second event
+  name: Phavanh Sosamphan
+  subtitle: Software developer
+  img: upstairslab.png
+  alt: Phavanh Sosamphan
+  topic: Fraud detection in mobile network at Lao Telecom
+  description: Working on the International Roaming team for Lao Telecom, Phavanh will give us an insider look on how the big telecom companies detect and mitigate fraud on its huge network of users.
+  website: 
+  facebook: 
+  number: 6
+
+- title: second event
+  name: LaoITdev
+  subtitle: Software developer
+  img: laoitdev.png
+  alt: LaoITdev
+  topic: React
+  description: ReactJS is the new javascript framework everybody is talking about. But what is that and why should I care ? Let's find out with LaoITdev who's using this technology every day.
+  website: http://www.laoitdev.com
+  facebook: https://web.facebook.com/laoitdev
+  number: 7
+
+
 
 
 
