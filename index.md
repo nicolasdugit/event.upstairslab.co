@@ -34,7 +34,7 @@ author: UpstairsLab
 					<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="archive.html">Archive</a>
+					<a class="nav-link js-scroll-trigger" href="archive.html">Past Event</a>
 				</li>
 			</ul>
 		</div>
@@ -125,7 +125,7 @@ author: UpstairsLab
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2 class="section-heading text-uppercase">Find Us</h2>
-				<h3 class="section-subheading text-muted">Here is the plan to join us</h3>
+				<h3 class="section-subheading text-muted">The event will take place in LaoItDev office, Sokpaluang street, next to syavone market</h3>
 			</div>
 		</div>
 		<div class="row">

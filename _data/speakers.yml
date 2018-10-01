@@ -1,5 +1,5 @@
 - title: first event
-  name: Nicolas Duquesne
+  name: Nicolas <br> Duquesne
   subtitle: Web developer
   img: nicolas.jpg
   alt: Nicolas Duquesne
@@ -10,18 +10,18 @@
   number: 1
 
 - title: first event
-  name: Ping Houangsanasay
+  name: Ping <br> Houangsanasay
   subtitle: IT specialist
   img: ping_houangsanasay.jpg
   alt: Ping Houangsanasay
   topic: Being a lao IT specialist, from small ISP to mining company and government
-  description: Ping relates is life of IT specialist in different compagny and structure in Laos
+  description: Ping relates his life of IT specialist in different companies and structures in Laos
   website: 
   facebook: https://web.facebook.com/PingOfficial
   number: 2
 
 - title: first event
-  name: Nathan Bowen
+  name: Nathan <br> Bowen
   subtitle: Enkidu founder
   img: nathan_bowen.jpg
   alt: Nathan Bowen
@@ -32,12 +32,12 @@
   number: 3
 
 - title: first event
-  name: Sylvain Dorey
+  name: Sylvain <br> Dorey
   subtitle: Software developer
   img: sylvain_dorey.jpg
   alt: Sylvain Dorey
   topic: Classify and visualize 1000's of Instagram Pictures in the browser
-  description: Sylvain tells his passion for AI and bot through a web application he realized for l'Oréal
+  description: Sylvain tells his passion for AI and bots through a web application he realized for l'Oréal
   website: http://www.geoquants.com
   facebook: https://web.facebook.com/sylvain.dorey
   number: 4
