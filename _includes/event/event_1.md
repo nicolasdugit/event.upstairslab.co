@@ -28,8 +28,10 @@
 					<img class="img-fluid" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
 				</a>
 				<div class="portfolio-caption">
-					<h4> {{ speaker.title }} </h4>
+					<h4> {{ speaker.name }} </h4>
 					<p class="text-muted">{{ speaker.subtitle }}</p>
+					<hr>
+					<h6> {{ speaker.topic }} </h6>
 				</div>
 			</div>
 	{% endif %}
