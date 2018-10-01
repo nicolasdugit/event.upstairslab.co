@@ -17,7 +17,7 @@ title: Vientiane Tech Talks
 email: contact@nicolasduquesne.com
 author: UpstairsLab
 keywords: UpstairsLab Vientiane Tech Talks
-image: asset/img/logos/upstairslab.png
+image: assets/img/logos/upstairslab.png
 description: >- # this means to ignore newlines until "baseurl:"
   Vientiane Tech Talks, meet up about tech by UpstairsLab
 baseurl: "/test" # the subpath of your site, e.g. /blog
