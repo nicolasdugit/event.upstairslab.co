@@ -104,7 +104,7 @@ author: UpstairsLab
 							<i class="fa fa-plus fa-3x"></i>
 						</div>
 					</div>
-					<img class="img-fluid" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
+					<img class="img-fluid" style="width: 100%;" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
 				</a>
 				<div class="portfolio-caption">
 					<h4> {{ speaker.name }} </h4>
@@ -231,7 +231,7 @@ author: UpstairsLab
 							<div class="col-md-12">CONTACT</div>
 							<div class="col-md-6 offset-md-3">
 		{% if speaker.website %}
-								<span class="col-md-6"><a href="{{ speaker.website }}"><i class="fa fa-internet-explorer fa-2x"></i></a></span>
+								<span class="col-md-6"><a href="{{ speaker.website }}"><i class="fa fa-globe fa-2x"></i></a></span>
 		{% endif %}
 		{% if speaker.facebook %}
 								<span class="col-md-6"><a href="{{ speaker.facebook }}"><i class="fa fa-facebook fa-2x"></i></a></span>
