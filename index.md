@@ -22,10 +22,10 @@ author: UpstairsLab
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav text-uppercase ml-auto">
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#services">Informations</a>
+					<a class="nav-link js-scroll-trigger" href="#portfolio">Speakers</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#portfolio">Speakers</a>
+					<a class="nav-link js-scroll-trigger" href="#services">Informations</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link js-scroll-trigger" href="#map">Map</a>
@@ -40,51 +40,6 @@ author: UpstairsLab
 		</div>
 	</div>
 </nav>
-<!-- About -->
-<section id="services">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Informations</h2>
-				<h3 class="section-subheading text-muted">Find here all informations you need to know about the event</h3>
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-3">
-				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x text-primary"></i>
-					<i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">When</h4>
-				<p class="text-muted">On Wenesday, 10th of October<br>Meet you at 6.00pm</p>
-			</div>
-			<div class="col-md-3">
-				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x text-primary"></i>
-					<i class="fa fa-map fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">Where</h4>
-				<p class="text-muted">This second event will take place at Lao IT dev office, Ban Vatnak</p>
-			</div>
-			<div class="col-md-3">
-				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x text-primary"></i>
-					<i class="fa fa-comments fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">What</h4>
-				<p class="text-muted">A meetup with talks about tech</p>
-			</div>
-			<div class="col-md-3">
-				<span class="fa-stack fa-4x">
-					<i class="fa fa-circle fa-stack-2x text-primary"></i>
-					<i class="fa fa-child fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">Who</h4>
-				<p class="text-muted">Everyone interested is welcome!</p>
-			</div>
-		</div>
-	</div>
-</section>
 <!-- Speakers -->
 <section class="bg-light" id="portfolio">
 	<div class="container">
@@ -115,14 +70,59 @@ author: UpstairsLab
 			</div>
 	{% endif %}
 {% endfor %}
-			<div class="col-lg-12 text-center">
+			<!-- <div class="col-lg-12 text-center">
 				<h2 style="color: #fed136" class="section-heading text-uppercase">More Coming Soon</h2>
+			</div> -->
+		</div>
+	</div>
+</section>
+<!-- About -->
+<section id="services" class="py-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading text-uppercase">Informations</h2>
+				<h3 class="section-subheading text-muted">Find here all informations you need to know about the event</h3>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-3">
+				<span class="fa-stack fa-4x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+				</span>
+				<h4 class="service-heading">When</h4>
+				<p class="text-muted">On Wenesday, 10th of October<br>Meet you at 6.00pm</p>
+			</div>
+			<div class="col-md-3">
+				<span class="fa-stack fa-4x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fa fa-map fa-stack-1x fa-inverse"></i>
+				</span>
+				<h4 class="service-heading">Where</h4>
+				<p class="text-muted">This second event will take place at Lao IT dev office, Ban Vatnak</p>
+			</div>
+			<div class="col-md-3">
+				<span class="fa-stack fa-4x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fa fa-comments fa-stack-1x fa-inverse"></i>
+				</span>
+				<h4 class="service-heading">What</h4>
+				<p class="text-muted">Friendly and casual gathering around Tech</p>
+			</div>
+			<div class="col-md-3">
+				<span class="fa-stack fa-4x">
+					<i class="fa fa-circle fa-stack-2x text-primary"></i>
+					<i class="fa fa-child fa-stack-1x fa-inverse"></i>
+				</span>
+				<h4 class="service-heading">Who</h4>
+				<p class="text-muted">Everyone interested is welcome!</p>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- Map -->
-<section id="map">
+<section id="map" class="py-5 bg-light">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -138,7 +138,7 @@ author: UpstairsLab
 	</div>
 </section>
 <!-- Clients -->
-<section class="py-5 bg-light">
+<section class="py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -228,7 +228,7 @@ author: UpstairsLab
 							<p class="item-intro text-muted">{{ speaker.name }}</p>
 							<!-- <img class="img-fluid d-block mx-auto" style="max-height: 300px;" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}"> -->
 							<p>{{ speaker.description }}</p>
-							<div class="col-md-12">CONTACT</div>
+							<!-- <div class="col-md-12">CONTACT</div> -->
 							<div class="col-md-6 offset-md-3">
 		{% if speaker.website %}
 								<span class="col-md-6"><a href="{{ speaker.website }}"><i class="fa fa-globe fa-2x"></i></a></span>
@@ -238,7 +238,7 @@ author: UpstairsLab
 		{% endif %}
 							</div>
 							<hr>
-							<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Project</button>
+							<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Topic</button>
 						</div>
 					</div>
 				</div>

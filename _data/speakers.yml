@@ -65,15 +65,26 @@
   number: 6
 
 - title: second event
-  name: LaoITdev
-  subtitle: Web developers
+  name: Sunny Singharaj
+  subtitle: Aeronautical engineer at Lao Airlines Engineering Company
+  img: sunny_singharaj.png
+  alt: Sunny Singharaj
+  topic:  Why aircraft engines become so big?
+  description: Expert working daily on the maintenance of the aircraft of Lao Airlines, Sunny is at the forefront to see new trends and technologies in the aeronautical industry. He will tell us about aircraft engines and their evolution.
+  website: 
+  facebook: 
+  number: 7
+
+- title: second event
+  name: LaoITDev
+  subtitle: Lao IT compagny
   img: laoitdev.png
   alt: LaoITdev
-  topic: React
+  topic: ReactJS, the new framework to rule them all
   description: ReactJS is the new javascript framework everybody is talking about. But what is that and why should I care ? Let's find out with LaoITdev who's using this technology every day.
   website: http://www.laoitdev.com
   facebook: https://web.facebook.com/laoitdev
-  number: 7
+  number: 8
 
 
 
