@@ -76,14 +76,25 @@
   number: 7
 
 - title: second event
-  name: LaoITDev
-  subtitle: Lao IT company
-  img: laoitdev.png
+  name: Saleumsack Keoboualay <br> and <br> Xangnam Phiasakha
+  subtitle: LaoITDev developers
+  img: laoitdev1.png
   alt: LaoITdev
   topic: ReactJS, the new framework to rule them all
   description: ReactJS is the new javascript framework everybody is talking about. But what is that and why should I care ? Let's find out with LaoITdev who's using this technology every day.
   website: http://www.laoitdev.com
   facebook: https://web.facebook.com/laoitdev
+  number: 8
+
+- title: second event
+  name: Derek Spranger
+  subtitle: Data center
+  img: derek_spranger.jpg
+  alt: Derek Spranger
+  topic: 'Building the future: a new data center in Laos'
+  description: Derek is building a new data center in Vientiane and will tell us the story behind this unusual adventure.
+  website: 
+  facebook: 
   number: 8
 
 

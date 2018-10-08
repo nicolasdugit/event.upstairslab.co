@@ -49,10 +49,10 @@ author: UpstairsLab
 				<h3 class="section-subheading text-muted"></h3>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row d-flex justify-content-center">
 {% for speaker in site.data.speakers %}
 	{% if speaker.title == "second event" %}
-			<div class="col-md-3 col-sm-6 portfolio-item">
+			<div class="col-lg-3 col-md-6 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ speaker.number }}">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
