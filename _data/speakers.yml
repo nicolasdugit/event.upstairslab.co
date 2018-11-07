@@ -44,36 +44,58 @@
 
 - title: second event
   name: Jaap Krösschell
-  subtitle: Software developer
-  img: jaap.jpg
+  subtitle: ICT Consultant
+  img: jaap_krosschel.jpg
   alt: Jaap Krösschell
   topic: "Introduction to the Arduino platform: build your own smart objects"
   description: Arduino is a free and open-source platform allowing anybody to create electronics smart objects, from weather stations to robots. Follow the guide Jaap to discover its full potential!
-  website: 
+  website: https://www.linkedin.com/in/jaapkroesschell/
   facebook: 
   number: 5
 
 - title: second event
   name: Phavanh Sosamphan
-  subtitle: Software developer
-  img: upstairslab.png
+  subtitle: Head of International Roaming fraud Detection Unit
+  img: phavanh_sosamphan.png
   alt: Phavanh Sosamphan
   topic: Fraud detection in mobile network at Lao Telecom
-  description: Working on the International Roaming team for Lao Telecom, Phavanh will give us an insider look on how the big telecom companies detect and mitigate fraud on its huge network of users.
+  description:  Head of the International Roaming fraud detection unit at Lao Telecom, Phavanh will give us an insider look on how the big telecommunication company detects and mitigates fraud on its huge network of users.
   website: 
   facebook: 
   number: 6
 
 - title: second event
-  name: LaoITdev
-  subtitle: Software developer
-  img: laoitdev.png
+  name: Sunny Singharaj
+  subtitle: Aeronautical engineer at Lao Airlines Engineering Company
+  img: sunny_singharaj.png
+  alt: Sunny Singharaj
+  topic:  Why aircraft engines become so big?
+  description: Expert working daily on the maintenance of the aircraft of Lao Airlines, Sunny is at the forefront to see new trends and technologies in the aeronautical industry. He will tell us about aircraft engines and their evolution.
+  website: 
+  facebook: 
+  number: 7
+
+- title: second event
+  name: Saleumsack Keoboualay <br> and <br> Xangnam Phiasakha
+  subtitle: LaoITDev developers
+  img: laoitdev1.png
   alt: LaoITdev
-  topic: React
+  topic: ReactJS, the new framework to rule them all
   description: ReactJS is the new javascript framework everybody is talking about. But what is that and why should I care ? Let's find out with LaoITdev who's using this technology every day.
   website: http://www.laoitdev.com
   facebook: https://web.facebook.com/laoitdev
-  number: 7
+  number: 8
+
+- title: second event
+  name: Derek Spranger
+  subtitle: 
+  img: derek_spranger.jpg
+  alt: Derek Spranger
+  topic: 'Building the future: a new data center in Laos'
+  description: Derek is building a new data center in Vientiane and will tell us the story behind this unusual adventure.
+  website: 
+  facebook: 
+  number: 9
 
 
 

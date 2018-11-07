@@ -22,10 +22,10 @@ author: UpstairsLab
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav text-uppercase ml-auto">
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#services">Informations</a>
+					<a class="nav-link js-scroll-trigger" href="#portfolio">Speakers</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#portfolio">Speakers</a>
+					<a class="nav-link js-scroll-trigger" href="#services">Informations</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link js-scroll-trigger" href="#map">Map</a>
@@ -40,8 +40,44 @@ author: UpstairsLab
 		</div>
 	</div>
 </nav>
+<!-- Speakers -->
+<section class="bg-light" id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading text-uppercase">Speakers</h2>
+				<h3 class="section-subheading text-muted"></h3>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+{% for speaker in site.data.speakers %}
+	{% if speaker.title == "second event" %}
+			<div class="col-lg-4 col-md-6 portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ speaker.number }}">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content">
+							<i class="fa fa-plus fa-3x"></i>
+						</div>
+					</div>
+					<img class="img-fluid" style="width: 100%;" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
+				</a>
+				<div class="portfolio-caption">
+					<h4> {{ speaker.name }} </h4>
+					<p class="text-muted">{{ speaker.subtitle }}</p>
+					<hr>
+					<h6> {{ speaker.topic }} </h6>
+				</div>
+			</div>
+	{% endif %}
+{% endfor %}
+			<!-- <div class="col-lg-12 text-center">
+				<h2 style="color: #fed136" class="section-heading text-uppercase">More Coming Soon</h2>
+			</div> -->
+		</div>
+	</div>
+</section>
 <!-- About -->
-<section id="services">
+<section id="services" class="py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -72,7 +108,7 @@ author: UpstairsLab
 					<i class="fa fa-comments fa-stack-1x fa-inverse"></i>
 				</span>
 				<h4 class="service-heading">What</h4>
-				<p class="text-muted">A meetup with talks about tech</p>
+				<p class="text-muted">Friendly and casual gathering around Tech</p>
 			</div>
 			<div class="col-md-3">
 				<span class="fa-stack fa-4x">
@@ -85,44 +121,8 @@ author: UpstairsLab
 		</div>
 	</div>
 </section>
-<!-- Speakers -->
-<section class="bg-light" id="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Speakers</h2>
-				<h3 class="section-subheading text-muted"></h3>
-			</div>
-		</div>
-		<div class="row">
-{% for speaker in site.data.speakers %}
-	{% if speaker.title == "second event" %}
-			<div class="col-md-3 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ speaker.number }}">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fa fa-plus fa-3x"></i>
-						</div>
-					</div>
-					<img class="img-fluid" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}">
-				</a>
-				<div class="portfolio-caption">
-					<h4> {{ speaker.name }} </h4>
-					<p class="text-muted">{{ speaker.subtitle }}</p>
-					<hr>
-					<h6> {{ speaker.topic }} </h6>
-				</div>
-			</div>
-	{% endif %}
-{% endfor %}
-			<div class="col-lg-12 text-center">
-				<h2 style="color: #fed136" class="section-heading text-uppercase">More Coming Soon</h2>
-			</div>
-		</div>
-	</div>
-</section>
 <!-- Map -->
-<section id="map">
+<section id="map" class="py-5 bg-light">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -138,7 +138,7 @@ author: UpstairsLab
 	</div>
 </section>
 <!-- Clients -->
-<section class="py-5 bg-light">
+<section class="py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -228,17 +228,17 @@ author: UpstairsLab
 							<p class="item-intro text-muted">{{ speaker.name }}</p>
 							<!-- <img class="img-fluid d-block mx-auto" style="max-height: 300px;" src="assets/img/speakers/{{ speaker.img }}" alt="assets/img/speakers/{{ speaker.alt }}"> -->
 							<p>{{ speaker.description }}</p>
-							<div class="col-md-12">CONTACT</div>
+							<!-- <div class="col-md-12">CONTACT</div> -->
 							<div class="col-md-6 offset-md-3">
 		{% if speaker.website %}
-								<span class="col-md-6"><a href="{{ speaker.website }}"><i class="fa fa-internet-explorer fa-2x"></i></a></span>
+								<span class="col-md-6"><a href="{{ speaker.website }}"><i class="fa fa-globe fa-2x"></i></a></span>
 		{% endif %}
 		{% if speaker.facebook %}
 								<span class="col-md-6"><a href="{{ speaker.facebook }}"><i class="fa fa-facebook fa-2x"></i></a></span>
 		{% endif %}
 							</div>
 							<hr>
-							<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Project</button>
+							<button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Topic</button>
 						</div>
 					</div>
 				</div>
